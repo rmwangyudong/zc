@@ -1,0 +1,17 @@
+spring:
+  profiles:
+    active:
+    - dev
+  mvc:
+    throw-exception-if-no-handler-found: true
+  resources:
+    add-mappings: false
+mybatis:
+  type-aliases-package: com.wyd.zc.model
+  mapper-locations: classpath:mapper/*.xml
+pagehelper:
+  helperDialect: mysql
+  pageSizeZero: true
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
