@@ -50,7 +50,7 @@
 	</properties>
 
 	<modules>
-		<module>zc-common</module>
+		<module>zc-app</module>
 		<module>zc-batch</module>
 		<module>zc-cache</module>
 		<module>zc-common</module>
